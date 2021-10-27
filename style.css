@@ -1,0 +1,146 @@
+body
+{
+    background-color: khaki;
+}
+.cardbody
+{
+    border: 2px solid cornflowerblue;
+    
+    margin: 3%;
+    font-size: 20px;
+    width: 20rem;
+    background-color: skyblue;
+}
+b{
+    color: cyan;
+}
+s{
+    color: deeppink;
+
+}
+p
+{
+    color: darkkhaki;
+}
+r
+{
+    color: darkviolet;
+}
+button
+{
+    background-color: greenyellow;
+    color: indianred;
+    padding: 20px;
+    margin: 2%;
+    
+}
+.card
+{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.cardbody img{
+width: 100%;
+height: 40%;
+}
+ 
+@media only screen and {min-width:320px; max-width: 480;}
+{
+    body
+    {
+        background-color: khaki;
+    }
+    .cardbody
+    {
+        border: 2px solid cornflowerblue;
+        
+        margin: 3%;
+        font-size: 20px;
+        width: 20rem;
+        background-color: skyblue;
+    }
+    b{
+        color: cyan;
+    }
+    s{
+        color: deeppink;
+    
+    }
+    p
+    {
+        color: darkkhaki;
+    }
+    r
+    {
+        color: darkviolet;
+    }
+    button
+    {
+        background-color: greenyellow;
+        color: indianred;
+        padding: 20px;
+        margin: 2%;
+        
+    }
+    .card
+    {
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    .cardbody img{
+    width: 100%;
+    height: 40%;
+    }
+
+}
+@media only screen and {min-width 480px;max-width: 768px;}
+{
+    body
+    {
+        background-color: khaki;
+    }
+    .cardbody
+    {
+        border: 2px solid cornflowerblue;
+        
+        margin: 3%;
+        font-size: 20px;
+        width: 20rem;
+        background-color: skyblue;
+    }
+    b{
+        color: cyan;
+    }
+    s{
+        color: deeppink;
+    
+    }
+    p
+    {
+        color: darkkhaki;
+    }
+    r
+    {
+        color: darkviolet;
+    }
+    button
+    {
+        background-color: greenyellow;
+        color: indianred;
+        padding: 20px;
+        margin: 2%;
+        
+    }
+    .card
+    {
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    .cardbody img{
+    width: 100%;
+    height: 40%;
+    } 
+}
