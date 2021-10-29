@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>::home page</title>
+</head>
+<body>
+    <div class="main">
+        <h1 Id="heading">
+
+        </h1>
+
+    </div>
+    <div class="demo">
+
+    </div>
+    <script>
+        ///ajax call/or Promisesor Fetch api araxi//
+        fetch('./data.json').then(response=>response.json()).
+        then(data =>
+         details(data)
+        )
+        var main=document.querySelector(".main");
+        function details(info){
+            var name=document.getElementById("heading");
+            name.textContent=info.name;
+            main.appendChild(name);
+            var age=document.getElementById("heading");
+            age.textContent=info.age;
+            main.appendChild(name);
+            var college=document.getElementById("heading");
+            college.textContent=info.college;
+            main.appendChild(name);
+        }
+    </script>
+</body>
+</html>
